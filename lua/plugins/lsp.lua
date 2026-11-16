@@ -18,6 +18,7 @@ return {
                 "jsonls",
                 "bashls",
                 "docker_compose_language_service",
+                "tailwindcss",
             },
         })
 
@@ -40,6 +41,7 @@ return {
             "jsonls",
             "bashls",
             "docker_compose_language_service",
+            "tailwindcss",
         })
 
         --vim.diagnostic.config({

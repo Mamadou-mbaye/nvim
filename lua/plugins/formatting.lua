@@ -17,7 +17,7 @@ return {
             },
             formatters = {
                 csharpier = {
-                    timeout_ms = 15000,
+                    timeout_ms = 60000,
                 },
             },
             format_on_save = {

@@ -15,10 +15,11 @@ end
 
 return {
     {
-        "folke/tokyonight.nvim",
+        --"folke/tokyonight.nvim",
+        "Mofiqul/dracula.nvim",
         config = function()
-            vim.cmd.colorscheme("tokyonight")
-            enable_transparency()
+            vim.cmd.colorscheme("dracula")
+            --enable_transparency()
             fix_diagnostic_underline()
         end,
     },
